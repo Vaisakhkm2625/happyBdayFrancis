@@ -21,7 +21,7 @@ function draw() {
   }
   endShape();
 
-  const r = height/40;
+  const r = weight/20;
   const x = r * 16 * pow(sin(a), 3);
   const y = -r*(13 * cos(a) - 5*cos(2*a) - 2*cos(3*a)- cos(4*a));
   heart.push(createVector(x, y));
