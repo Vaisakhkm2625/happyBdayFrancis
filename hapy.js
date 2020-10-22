@@ -16,7 +16,7 @@ if(width<height){
 
 
 function draw() {
-  background(0);
+  background(color(100,100,255));
   translate(width/2, height/2);
 
   stroke(255);
