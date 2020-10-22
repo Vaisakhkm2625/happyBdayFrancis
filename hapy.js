@@ -1,10 +1,17 @@
 
 const heart = [];
 let a = 0;
-let t =0;
+let t =0,dt;
+var r;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+if(width<height){ 
+     r = width/40;
+    dt = 0.5}
+   else{
+     r = height/40
+    dt =0.8}
 }
 
 
@@ -21,7 +28,7 @@ function draw() {
   }
   endShape();
 
-  const r = weight/20;
+  
   const x = r * 16 * pow(sin(a), 3);
   const y = -r*(13 * cos(a) - 5*cos(2*a) - 2*cos(3*a)- cos(4*a));
   heart.push(createVector(x, y));
@@ -30,14 +37,12 @@ function draw() {
   textAlign(CENTER);
   textSize(t);
   text("happy birthday Arun",0,0);
-  textSize(10);
-  text(' X = 16 * '+r+' * sin('+a+') ^ 3'   ,width/2-100,height/2-20);
-  text('Y = -'+r+'*(13 * cos('+a+') - 5*cos(2*'+a+') - 2*cos(3*'+a+')- cos(4*'+a+'))',width/2-100,height/2-10);
-  
+ 
   // So that it stops
   if (a > TWO_PI) {
     noLoop();
   }
-  t += 0.8;
+  t += dt;
   a += 0.1;
+ // delay(100);
 }
