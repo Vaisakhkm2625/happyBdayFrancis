@@ -90,7 +90,7 @@ function draw() {
   fill(255);
   textAlign(CENTER);
   textSize(t);
-  text("happy birthday Arun",0,0);
+  text("Happy birthday Dennis",0,0);
   textSize(10);
 
 
