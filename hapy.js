@@ -26,7 +26,7 @@ class fallball{
     this.sise = random(10,100);
   }
   show(){
-    fill(color(100,100,100));
+    fill(color(random(250),random(250),random(250)));
     circle(this.xpos,this.ypos,this.sise);
   }
   nextstep(){
