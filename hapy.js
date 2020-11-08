@@ -36,7 +36,7 @@ function draw() {
   fill(255);
   textAlign(CENTER);
   textSize(t);
-  text("happy birthday Arun",0,0);
+  text("happy birthday Dennis",0,0);
  
   // So that it stops
   if (a > TWO_PI) {
