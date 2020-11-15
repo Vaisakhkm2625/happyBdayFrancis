@@ -90,8 +90,8 @@ function draw() {
   fill(255);
   textAlign(CENTER);
   textSize(t);
-   text("happy wedding ",0,0);
-  text("Lakshmi Priya maam! ",0,dt*100);
+   text("Best Wishes",0,-50);
+  text("Lakshmi Priya maam! ",0,dt*50);
   textSize(10);
 
 
