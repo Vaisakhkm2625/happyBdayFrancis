@@ -36,8 +36,8 @@ function draw() {
   fill(255);
   textAlign(CENTER);
   textSize(t);
-  text("happy birthday arun",0,0);
- 
+  text("happy wedding ",0,0);
+  text("Lakshmi Priya maam! ",0,dt*5);
   // So that it stops
   if (a > TWO_PI) {
     noLoop();
