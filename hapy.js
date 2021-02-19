@@ -91,7 +91,7 @@ function draw() {
   textAlign(CENTER);
   textSize(t);
    text("Best Wishes",0,-30);
-  text("Lakshmi Priya maam! ",0,dt*50);
+  text("Francis",0,dt*50);
   textSize(10);
 
 
